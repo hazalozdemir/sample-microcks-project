@@ -1,0 +1,75 @@
+{
+	"info": {
+		"_postman_id": "d97df161-594f-4097-a68a-79cff4db7a51",
+		"name": "mock-user-services",
+		"description": "version=1.0 - initial",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "list user",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8082/list",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"list"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "list user",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8082/list",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"list"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 11 Apr 2022 20:02:47 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"name\": \"user1Name\",\n        \"surname\": \"user1Surname\"\n    },\n    {\n        \"name\": \"user2Name\",\n        \"surname\": \"user2Surname\"\n    },\n    {\n        \"name\": \"user3Name\",\n        \"surname\": \"user3Surname\"\n    },\n    {\n        \"name\": \"user4Name\",\n        \"surname\": \"user4Surname\"\n    },\n    {\n        \"name\": \"user5Name\",\n        \"surname\": \"user5Surname\"\n    },\n    {\n        \"name\": \"user6Name\",\n        \"surname\": \"user6Surname\"\n    },\n    {\n        \"name\": \"user7Name\",\n        \"surname\": \"user7Surname\"\n    },\n    {\n        \"name\": \"user8Name\",\n        \"surname\": \"user8Surname\"\n    }\n]"
+				}
+			]
+		}
+	]
+}
